@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+form {
+  margin-top: 40px;
+}
+.form_control {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 20px 0px;
+}
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+select {
+  width: 40%;
+}
+input[type='text'] {
+  width: 40%;
+}
+/* table.posts th.manage-column.column-title.column-primary {
+  width: 36% !important;
+} */
